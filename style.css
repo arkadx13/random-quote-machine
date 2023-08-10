@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(235, 235, 235, 0.68);
+}
+
+.q-box {
+  width: 400px;
+  height: 250px;
+  padding: 20px;
+}
+
+#text {
+  margin-bottom: 8px;
+}
+
+#author {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+}
+
+button:active {
+  transform: scale(0.98);
+  background-color: rgb(147, 228, 255);
+}
+
+button:hover {
+  background-color: rgb(218, 218, 218);
+}
+
+a:active {
+  border: none;
+}
+
+#new-quote {
+  padding: 6px;
+  margin-top: 8px;
+}
