@@ -12,8 +12,8 @@ function App() {
         return response.json();
       })
       .then((data) => {
-        setQuote(data.content);
-        setAuthor(data.author);
+        setQuote('"' + data.content + '"');
+        setAuthor("— " + data.author);
       });
   };
 
