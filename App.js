@@ -25,11 +25,10 @@ function App() {
         <button>
           <a
             id="tweet-quote"
-            className="btn"
             target="_blank"
             href={
               "https://twitter.com/intent/tweet?&related=freecodecamp&text=" +
-              encodeURIComponent('"' + quote + '" ' + "- " + author)
+              encodeURIComponent(quote + "\n\n" + author)
             }
           >
             <i className="fa-brands fa-twitter"></i>
